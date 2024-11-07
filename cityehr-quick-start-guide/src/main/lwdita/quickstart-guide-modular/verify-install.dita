@@ -2,13 +2,19 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
 <topic id="verify-install">
     <title>Verifying the installation</title>
-    <shortdesc> This topic confirms that cityEHR is correctly installed and accessible. It covers logging in to cityEHR using default credentials, building the default application, and navigating the Dashboard to review key system elements. Additionally, the chapter explains how to reload the default application if necessary, run cityEHR in debug mode to explore its underlying structures, and handle session timeouts. This chapter ensures users can successfully set up and verify the functionality of cityEHR before moving on to more advanced configurations. </shortdesc>
+    <shortdesc> This topic confirms that cityEHR is correctly installed and accessible. It covers logging in to cityEHR using default credentials, building the default application, and navigating the Dashboard to review key system elements. Additionally, the chapter explains how to reload the default application 
+
+hello here are my changes 
+
+<b>HELLO</b> jsjsjs</shortdesc>
     <body>
         <section id="log-on">
             <title>Log On</title>
             <p> With Apache Tomcat and cityEHR installed, the log-on page of cityEHR can be accessed with the Firefox web browser using the address <i>http://localhost:8080/cityehr </i> if you have the Tomcat server running on your local machine or if running on a remote server, substitute the IP address of your server for 'localhost'. </p>
             <p><b>Note that cityEHR 1.7 must be accessed using Firefox only (IE 11, Edge, Chrome and Safari will be supported from version 2.0 onwards).</b> </p>
-            <p>The base cityEHR installation has a single default user set up with no credentials</p>
+            <p>The base cityEHR installation has a single default user set up with the credentials </p>
+            <p>username: admin </p>
+            <p>password: password </p>
             <p><image href="images/log-on-page.png" format="image/png">
                     <alt>cityEHR Log-on Page</alt>
                 </image></p>
